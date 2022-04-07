@@ -1,4 +1,5 @@
 import { useState } from "react";
+import BlogsList from "./BlogsList";
 
 const Home = () => {
 
@@ -14,9 +15,7 @@ const Home = () => {
 
     return ( 
         <div className="home">
-            <h2>Homepage</h2>
-            <p>{name} is {age} years old</p>
-            <button onClick={handleClick}>Click ME</button>
+            <BlogsList blogs={blogs} title="All Blogs!" />
         </div>
      );
 }
