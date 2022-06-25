@@ -2,3 +2,6 @@ npx create-react-app app-name
 npm run start
 
 sfc is a snippet to create the js component function
+
+to run db.json over json-server
+npx json-server --watch data/db.json --port 8000
