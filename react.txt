@@ -1,0 +1,4 @@
+npx create-react-app app-name
+npm run start
+
+sfc is a snippet to create the js component function
