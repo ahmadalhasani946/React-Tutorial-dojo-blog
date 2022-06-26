@@ -93,3 +93,6 @@
   border-radius: 8px;
   cursor: pointer;
 }
+.create button.disabled {
+  background: #f2f2f2;
+}
